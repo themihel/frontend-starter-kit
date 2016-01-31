@@ -1,6 +1,18 @@
 # frontend-starter-kit
 
+![dev-dep](https://david-dm.org/themihel/frontend-starter-kit/dev-status.svg)
+
 Lightweight starter kit for frontend/website projects.
+
+## Features
+
+- [x] Lightweight / no boilerplate code
+- [x] SASS support
+- [x] Minified / concatenated Javascript and CSS
+- [x] Linted Javascript with [ESLint](http://eslint.org/)
+- [x] [Bower](http://bower.io/) support (see gulp tasks)
+- [x] Up to date dev-dependencies thanks to @greenkeeperio
+- [x] Synchronised browser testing by [BrowserSync](synchronised browser testing)
 
 ## Get started
 
@@ -27,3 +39,48 @@ npm install
 * `gulp watch` : Compiles sass / Lint and concat js files (see: **styles**, **lint**, **scripts**)
 
 **Note:** `gulp watch`, `gulp serve` and `gulp serve:dist` automatically run on code changes
+
+#### Recommended file structure
+```
+frontend-starter-kit
+│   .editorconfig
+│   .eslintrc
+│   .gitignore
+│   .jscsrc
+│   gulpfile.js
+│   LICENSE
+│   package.json
+│   README.md
+│
+└───app
+    │   index.html
+    │   ...
+    │
+    ├───scripts
+    │   │   app.js
+    │   │   ...
+    │
+    ├───images
+    │   ...
+    │
+    └───styles
+        │
+        │   app.scss
+        │
+        ├───core
+        │   │   _core.scss
+        │   │   _vars.scss
+        │   │   ...
+        │
+        ├───mixins
+        │   │   _normalizeBoxSize.scss
+        │   │   ...
+        │
+        ├───modules
+        │   │   ...
+        │
+        └───views
+            │   ...
+
+
+```
