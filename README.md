@@ -7,11 +7,12 @@ Lightweight starter kit for frontend/website projects.
 ## Features
 
 - [x] Lightweight / no boilerplate code
-- [x] SASS support
+- [x] SASS/SCSS support
 - [x] Minified / concatenated Javascript and CSS
 - [x] Linted Javascript with [ESLint](http://eslint.org/)
+- [x] Basic editorconfig and JavascriptCodeStyle config
 - [x] [Bower](http://bower.io/) support (see gulp tasks)
-- [x] Up to date dev-dependencies thanks to @greenkeeperio
+- [x] Up to date dev-dependencies thanks to [@greenkeeperio](http://greenkeeper.io/)
 - [x] Synchronised browser testing by [BrowserSync](synchronised browser testing)
 
 ## Get started
@@ -24,6 +25,11 @@ npm install
 ```
 
 ### Usage
+
+#### Developing
+Just run `gulp serve` and start coding 🎉
+
+Your browser will automatically reload on each saved action!
 
 #### Gulp-tasks
 * `gulp styles` : Compile/concat sass files (minify for *dist*)
@@ -39,6 +45,9 @@ npm install
 * `gulp watch` : Compiles sass / Lint and concat js files (see: **styles**, **lint**, **scripts**)
 
 **Note:** `gulp watch`, `gulp serve` and `gulp serve:dist` automatically run on code changes
+
+#### Build / Upload
+Run `gulp dist` and upload all files from `dist` directory to your server. That's it 😊
 
 #### Recommended file structure
 ```
