@@ -1,0 +1,11 @@
+{
+  "extends": "eslint:recommended",
+  "rules":{
+    "camelcase": 1,
+    "quotes": [1, "single"],
+    "no-console": 0
+  },
+  "globals": {
+        "console": true
+  }
+}

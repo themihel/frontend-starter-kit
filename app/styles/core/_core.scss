@@ -1,0 +1,13 @@
+// box sizing
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+// main
+body {
+	@include normalizeBoxSize();
+	font-family: $font-family;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-normal;
+  color: $color-primary;
+}
