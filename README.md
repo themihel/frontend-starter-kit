@@ -40,7 +40,7 @@ Your browser will automatically reload on each saved action!
 * `gulp bower` : Copy bower files into *dist* folder
 * `gulp clean` : Remove *tmp* and *dist* folder
 * `gulp dist` : Compiles/concats/lint/minifies code for production/upload
-* `serve` : Serve files for local testing (code unminified)
+* `gulp serve` : Serve files for local testing (code unminified)
 * `gulp serve:dist` : Serve files from *dist* folder for final testing
 * `gulp watch` : Compiles sass / Lint and concat js files (see: **styles**, **lint**, **scripts**)
 
