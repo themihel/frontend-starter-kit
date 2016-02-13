@@ -13,7 +13,7 @@ Lightweight starter kit for frontend/website projects.
 - [x] Basic editorconfig and JavascriptCodeStyle config
 - [x] [Bower](http://bower.io/) support (see gulp tasks)
 - [x] Up to date dev-dependencies thanks to [@greenkeeperio](http://greenkeeper.io/)
-- [x] Synchronised browser testing by [BrowserSync](synchronised browser testing)
+- [x] Synchronised browser testing by [BrowserSync](https://www.browsersync.io/)
 
 ## Get started
 
