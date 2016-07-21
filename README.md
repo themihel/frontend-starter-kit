@@ -1,6 +1,7 @@
 # frontend-starter-kit
 
 ![dev-dep](https://david-dm.org/themihel/frontend-starter-kit/dev-status.svg)
+![Build status](https://api.travis-ci.org/themihel/frontend-starter-kit.svg)
 
 Lightweight starter kit for frontend/website projects.
 
