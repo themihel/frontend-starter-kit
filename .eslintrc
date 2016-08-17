@@ -1,4 +1,7 @@
 {
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
   "extends": "eslint:recommended",
   "rules":{
     "camelcase": 1,
@@ -6,6 +9,6 @@
     "no-console": 0
   },
   "globals": {
-        "console": true
+    "console": true
   }
 }
