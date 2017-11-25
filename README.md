@@ -95,7 +95,3 @@ frontend-starter-kit
 
 
 ```
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/trD8X4GH7wM31Z1MwbbTYCbt/themihel/frontend-starter-kit'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/trD8X4GH7wM31Z1MwbbTYCbt/themihel/frontend-starter-kit.svg' />
-</a>
