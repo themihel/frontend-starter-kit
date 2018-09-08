@@ -16,7 +16,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^5.0.0",
     "gulp-header": "^2.0.1",
-    "gulp-htmlmin": "^4.0.0",
+    "gulp-htmlmin": "^5.0.0",
     "gulp-imagemin": "^4.0.0",
     "gulp-sass": "^4.0.0",
     "gulp-size": "^3.0.0",
